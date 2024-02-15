@@ -647,6 +647,7 @@ return view.extend({
         o.noaliases = true
         o.rmempty = false
         o.nocreate = true
+        o.multiple = true
 
         o = s.taboption('proxy', form.SectionValue, "access_control_lan_hosts", form.TableSection, 'lan_hosts', _('LAN Hosts Access Control'), _("Will not enable transparent proxy for these MAC addresses."))
 
